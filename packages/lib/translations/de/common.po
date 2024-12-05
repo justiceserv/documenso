@@ -8,7 +8,7 @@ msgstr ""
 "Language: de\n"
 "Project-Id-Version: documenso-app\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-11-20 11:56\n"
+"PO-Revision-Date: 2024-12-04 04:04\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -61,12 +61,12 @@ msgstr "{0} von {1} Zeile(n) ausgewählt."
 #: packages/lib/jobs/definitions/emails/send-signing-email.ts:136
 #: packages/lib/server-only/document/resend-document.tsx:137
 msgid "{0} on behalf of \"{1}\" has invited you to {recipientActionVerb} the document \"{2}\"."
-msgstr ""
+msgstr "{0} im Namen von \"{1}\" hat Sie eingeladen, das Dokument \"{2}\" {recipientActionVerb}."
 
 #: packages/lib/jobs/definitions/emails/send-signing-email.ts:136
 #: packages/lib/server-only/document/resend-document.tsx:137
 #~ msgid "{0} on behalf of {1} has invited you to {recipientActionVerb} the document \"{2}\"."
-#~ msgstr "{0} hat dich im Namen von {1} eingeladen, das Dokument \"{2}\" {recipientActionVerb}."
+#~ msgstr "{0} on behalf of {1} has invited you to {recipientActionVerb} the document \"{2}\"."
 
 #: packages/email/template-components/template-document-invite.tsx:51
 #~ msgid "{0}<0/>\"{documentName}\""
@@ -94,7 +94,7 @@ msgstr "{inviterName} hat dich eingeladen, {action} {documentName}"
 
 #: packages/email/templates/document-invite.tsx:108
 msgid "{inviterName} has invited you to {action} the document \"{documentName}\"."
-msgstr "{inviterName} hat Sie eingeladen, das Dokument \"{documentName}\" {action}."
+msgstr "{inviterName} Hat sie eingeladen, das Dokument\"{documentName}\" {action}."
 
 #: packages/email/templates/recipient-removed-from-document.tsx:20
 msgid "{inviterName} has removed you from the document {documentName}."
@@ -106,15 +106,15 @@ msgstr "{inviterName} hat dich aus dem Dokument<0/>\"{documentName}\" entfernt"
 
 #: packages/email/template-components/template-document-invite.tsx:63
 msgid "{inviterName} on behalf of \"{teamName}\" has invited you to {0}"
-msgstr ""
+msgstr "{inviterName} im Namen von \"{teamName}\" hat Sie eingeladen, {0}"
 
 #: packages/email/templates/document-invite.tsx:45
 msgid "{inviterName} on behalf of \"{teamName}\" has invited you to {action} {documentName}"
-msgstr ""
+msgstr "{inviterName} im Namen von \"{teamName}\" hat Sie eingeladen, {action} {documentName}"
 
 #: packages/email/template-components/template-document-invite.tsx:63
 #~ msgid "{inviterName} on behalf of {teamName} has invited you to {0}"
-#~ msgstr "{inviterName} im Namen von {teamName} hat Sie eingeladen, {0}"
+#~ msgstr "{inviterName} on behalf of {teamName} has invited you to {0}"
 
 #: packages/email/template-components/template-document-invite.tsx:49
 #~ msgid "{inviterName} on behalf of {teamName} has invited you to {0}<0/>\"{documentName}\""
@@ -122,7 +122,7 @@ msgstr ""
 
 #: packages/email/templates/document-invite.tsx:45
 #~ msgid "{inviterName} on behalf of {teamName} has invited you to {action} {documentName}"
-#~ msgstr "{inviterName} hat dich im Namen von {teamName} eingeladen, {action} {documentName}"
+#~ msgstr "{inviterName} on behalf of {teamName} has invited you to {action} {documentName}"
 
 #: packages/email/templates/team-join.tsx:67
 msgid "{memberEmail} joined the following team"
@@ -581,7 +581,7 @@ msgstr "Unterschrift löschen"
 
 #: packages/ui/primitives/document-flow/add-signature.tsx:394
 msgid "Click to insert field"
-msgstr "Klicken, um das Feld auszufüllen"
+msgstr "Klicken, um das Feld einzufügen"
 
 #: packages/ui/primitives/document-flow/missing-signature-field-dialog.tsx:44
 msgid "Close"
@@ -1827,3 +1827,4 @@ msgstr "Dein Passwort wurde aktualisiert."
 #: packages/email/templates/team-delete.tsx:32
 msgid "Your team has been deleted"
 msgstr "Dein Team wurde gelöscht"
+
