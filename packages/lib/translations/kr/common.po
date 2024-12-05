@@ -15,15 +15,15 @@ msgstr ""
 
 #: packages/email/template-components/template-document-super-delete.tsx:27
 msgid "\"{documentName}\" has been deleted by an admin."
-msgstr "\"{documentName}\" has been deleted by an admin."
+msgstr "\"{documentName}\" 은 어드민에 의해 삭제되었습니다."
 
 #: packages/email/template-components/template-document-pending.tsx:37
 msgid "“{documentName}” has been signed"
-msgstr "“{documentName}” has been signed"
+msgstr "“{documentName}” 문서가 서명되었습니다."
 
 #: packages/email/template-components/template-document-completed.tsx:41
 msgid "“{documentName}” was signed by all signers"
-msgstr "“{documentName}” was signed by all signers"
+msgstr "“{documentName}” 문서의 모든 서명 참여자가 서명하였습니다"
 
 #: packages/lib/server-only/document/resend-document.tsx:109
 #~ msgid "{0}"
@@ -31,7 +31,7 @@ msgstr "“{documentName}” was signed by all signers"
 
 #: packages/email/template-components/template-document-invite.tsx:80
 #~ msgid "{0} Document"
-#~ msgstr "{0} Document"
+#~ msgstr "{0} 문서"
 
 #: packages/lib/jobs/definitions/emails/send-signing-email.ts:137
 msgid "{0} has invited you to {recipientActionVerb} the document \"{1}\"."
